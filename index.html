@@ -42,15 +42,18 @@
               type="number"
               pattern="-?[0-9]*(\.[0-9]+)?"
               id="userTemperature"
+              min="-63"
+              max="45"
+              step="1"
               />
             <label class="mdl-textfield__label" for="temperature">Temp...</label>
-            <span class="mdl-textfield__error">Input is not a number!</span>
+            <span class="mdl-textfield__error">Input is not a valid temperature in Canada</span>
           </div>
         </form>
         <!-- Raised button with ripple -->
         <button
         class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"
-          onclick="convert()">
+          onclick="calculate()">
           Calculate
         </button>
         <br/>
