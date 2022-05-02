@@ -17,5 +17,9 @@ function convert() {
   if (userTemperature < 15) {
     result = "<br>It's Cold Out! Better Bundle Up!";
   } else {
-    result = "<br> Its nice and warm out today "
+    result = "<br> Its nice and warm out today! Better wear some sunscreen! "
   }
+  
+  // Displaying results 
+  document.getElementById('result').innerHTML = result
+}

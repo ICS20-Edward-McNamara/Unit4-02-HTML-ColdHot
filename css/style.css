@@ -1,16 +1,16 @@
 body {
-	background-color: #ed553b ;
+	background-color: #3bedd8 ;
 }
 
 h3 {
-	background-color: #20693B;
-	color: #3caea3;
+	background-color: #360be5;
+	color: #000000;
 	padding: 40px;
 	text-align: center;
 }
 
 p {
-	color: #f6d55c;
+	color: #5ff778;
 }
 
 img {
@@ -19,4 +19,8 @@ img {
 
 div {
   text-align: center;
+  font-size: 35px;
+  color: #2c4ae2;
+  font-family: Lucida Console, Courier New;
+  
 }
